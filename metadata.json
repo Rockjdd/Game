@@ -1,0 +1,6 @@
+{
+  "name": "Math Brain",
+  "description": "A colorful, casual mathematical brain puzzle game with 50 progressive levels, daily challenges, and math cross puzzles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

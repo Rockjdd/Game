@@ -1,0 +1,64 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Soft drop shadow for center tile (Safe zone is 66dp: 21 to 87) -->
+    <path
+        android:fillColor="#33000000"
+        android:pathData="M32,30 H76 A14,14 0 0 1 90,44 V80 A14,14 0 0 1 76,94 H32 A14,14 0 0 1 18,80 V44 A14,14 0 0 1 32,30 Z" />
+
+    <!-- Main Candy Tile Base with Pink-to-Amber gradient -->
+    <path android:pathData="M32,26 H76 A14,14 0 0 1 90,40 V76 A14,14 0 0 1 76,90 H32 A14,14 0 0 1 18,76 V40 A14,14 0 0 1 32,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endX="90"
+                android:endY="90"
+                android:startX="18"
+                android:startY="26"
+                android:type="linear">
+                <item android:color="#FF3B80" android:offset="0.0" />
+                <item android:color="#F43F5E" android:offset="0.4" />
+                <item android:color="#FB923C" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glossy Top Highlight -->
+    <path
+        android:fillColor="#44FFFFFF"
+        android:pathData="M32,28 H76 A12,12 0 0 1 88,40 V50 C70,44 38,44 20,50 V40 A12,12 0 0 1 32,28 Z" />
+
+    <!-- Plus Symbol (Top Left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M37,42 H43 V36 H47 V42 H53 V46 H47 V52 H43 V46 H37 Z" />
+
+    <!-- Multiplication / Cross Symbol (Top Right) -->
+    <path
+        android:fillColor="#FEF08A"
+        android:pathData="M67.5,37.5 L72,42 L76.5,37.5 L79.5,40.5 L75,45 L79.5,49.5 L76.5,52.5 L72,48 L67.5,52.5 L64.5,49.5 L69,45 L64.5,40.5 Z" />
+
+    <!-- Division Symbol (Bottom Left) -->
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M42,62 A3,3 0 1,1 48,62 A3,3 0 1,1 42,62 Z M37,68 H53 V71 H37 Z M42,77 A3,3 0 1,1 48,77 A3,3 0 1,1 42,77 Z" />
+
+    <!-- Equals / Question Mark Badge (Bottom Right) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,66 H79 V69 H66 Z M66,73 H79 V76 H66 Z" />
+
+    <!-- Center Sparkle Gem -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,49 L56,56 L63,58 L56,60 L54,67 L52,60 L45,58 L52,56 Z" />
+
+    <!-- Small Sparkle Top Corner -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M26,30 L27,33 L30,34 L27,35 L26,38 L25,35 L22,34 L25,33 Z" />
+</vector>
